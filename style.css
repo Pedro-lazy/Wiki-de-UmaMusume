@@ -9,38 +9,62 @@ body {
     background-color: rgb(96, 11, 145);
     text-align: center;
     color: white;
+    font-size: 25px;
 
 }
 
-.sidebar{
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     background-color: purple;
-     display: flex;
-     flex-direction: column;
-     gap: 15px;
-     padding: 15px;
-     width: 100px;
-     border-radius: 16px;
-     height: 1100px;
-     border: outset ;
-     border-color: rgb(228, 228, 228);
+.sidebar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    width: 115px;
+    border-radius: 16px;
+    height: 1100px;
+    border: outset;
+    border-color: rgb(228, 228, 228);
+
 }
-.sidebar button{
+
+.sidebar button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(225, 90, 225);
     padding: 15px;
     border-radius: 16px;
     border: none;
-    width: 100px;
+    width: 125px;
     color: black;
+    cursor: pointer;
+    font-size: 15px;
 }
-form{
-    
+
+form {
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
-h1{
+
+h1 {
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    
+
+}
+
+.Searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: white;
+    border: solid 2px gray;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+.Searchbar input{
+    border: none;
 }
