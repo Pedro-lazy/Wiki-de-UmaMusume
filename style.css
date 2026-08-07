@@ -7,9 +7,7 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(96, 11, 145);
-    text-align: center;
-    color: white;
-    font-size: 40px;
+
 
 }
 
@@ -22,10 +20,11 @@ body {
     padding: 15px;
     width: 125px;
     border-radius: 16px;
-    height: 1100px;
-    box-shadow: 4px 0px 10px pink ;
-   
-    margin-top: -25px;
+    height: 100vh;
+    box-shadow: 4px 0px 10px pink;
+    position: fixed;
+    top: -1;
+    left: 0;
 
 }
 
@@ -49,14 +48,17 @@ form {
 
 h1 {
     background-color: rgb(0, 0, 0);
-    border-radius: 0px 0px 16px 16px;
-    box-shadow:  4px 0px 50px pink;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 4px 0px 50px pink;
     height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
 
 }
 
 .Searchbar {
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,15 +70,17 @@ h1 {
     width: 300px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     transition: 0.3s;
-    
+
 }
+
 .Searchbar:focus-within {
     border-color: #2b7cff;
-    box-shadow: 0 0 10px rgba(43,124,255,.4);}
-.Searchbar input{
+    box-shadow: 0 0 10px rgba(43, 124, 255, .4);
+}
+
+.Searchbar input {
     border: none;
     outline: none;
-    
     color: rgb(15, 14, 14);
     padding: 12px 2px;
     border-radius: 30px;
@@ -84,23 +88,27 @@ h1 {
     font-size: 16px;
     transition: .3s;
 }
+
 .Searchbar button:hover {
     background: #1d63cf;
     transform: scale(1.05);
-    
+
 }
-.conteudo{
-    background:#1b1b1b;
 
-    width:800px;
+.conteudo {
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1650px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    border: none;
+    margin-left: 180px;
+    font-size: 15px;
+}
+.titulo cont{
+    font-size: 30px;
 
-    margin:40px auto;
 
-    padding:30px;
-
-    border-radius:20px;
-
-    box-shadow:0 0 20px rgba(0,0,0,.3);
-
-    border:none;
 }
